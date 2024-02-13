@@ -1,8 +1,6 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
-
-/// <someXMLDoc> 
-/// 
-/// Aboba aboba aboba
-/// 
-/// </someXMLDoc>
+﻿class Hello {
+    static void main(String[] args)
+    {
+        Console.WriteLine("Hello world!");
+    }
+}
