@@ -7,11 +7,10 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="813">
     <Grid Width="815" >
-        <DockPanel LastChildFill="False">
-            <Label Content="Label" Width="100" HorizontalAlignment="Center" VerticalAlignment="Center" DockPanel.Dock="Top" HorizontalContentAlignment="Right"/>
-            <TextBox TextWrapping="Wrap" Text="TextBox" Width="308" FontSize="14"/>
-            <TextBox TextWrapping="Wrap" Text="TextBox" Width="329" DockPanel.Dock="Right" FontSize="14"/>
-            <Button Content="Button" DockPanel.Dock="Bottom" Height="31" Margin="0,0,0,40" Width="144" FontSize="14" HorizontalContentAlignment="Center"/>
-        </DockPanel>
+        <Canvas Background="Cyan" >
+            <Label Content="Label" FontSize="14" Canvas.Left="20" Canvas.Top="20"/>
+            <TextBox TextWrapping="Wrap" Text="TextBox" Canvas.Top="40" Width="66" FontSize="14" Canvas.Left="40" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+            <Button Content="Button" Canvas.Top="60" FontSize="14" Canvas.Left="60"/>
+        </Canvas>
     </Grid>
 </Window>
