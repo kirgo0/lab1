@@ -6,38 +6,51 @@
         xmlns:local="clr-namespace:lab2"
         mc:Ignorable="d"
         Title="TextEditor" Height="450" Width="800">
+    <Window.Resources>
+        <LinearGradientBrush x:Key="LinearPanelBrush" StartPoint="0,0" EndPoint="1,1">
+            <GradientStop Color="Yellow" Offset="0"/>
+            <GradientStop Color="LightBlue" Offset="0.5"/>
+            <GradientStop Color="Yellow" Offset="1"/>
+        </LinearGradientBrush>
+        <Style TargetType="Button" x:Key="ButtonStyle">
+            <Setter Property="Margin" Value="5"/>
+            <Setter Property="Background" Value="Transparent"/>
+            <Setter Property="BorderBrush" Value="White"/>
+            <Setter Property="BorderThickness" Value="1"/>
+        </Style>
+    </Window.Resources>
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto"/>
             <RowDefinition Height="20*"/>
         </Grid.RowDefinitions>
 
-        <Border BorderBrush="#FFCBBEBE" BorderThickness="2" VerticalAlignment="Center" CornerRadius="10">
+        <Border Background="{StaticResource LinearPanelBrush}" BorderBrush="#FFCBBEBE" BorderThickness="2" VerticalAlignment="Center" CornerRadius="10">
             <StackPanel Orientation="Horizontal" Height="NaN" VerticalAlignment="Top" >
-                <Button Width="63" Height="63" ToolTip="Відкрити">
-                    <Image Source="/open-sign-11552767930g7zpbml23u.png">
-                        
-                    </Image>
-                </Button>
-                <Button Width="62" Height="63" ToolTip="Стерти">
-                    <Image Source="/5cb77a93a7c7755bf004c111.png" Height="59" Width="83" HorizontalAlignment="Center">
+                <Button Style="{StaticResource ButtonStyle}" Width="100" Height="100" ToolTip="Відкрити">
+                    <Image Source="/580b585b2edbce24c47b245b.png">
 
                     </Image>
                 </Button>
-                <Button Width="63" Height="63" ToolTip="Копіювати">
-                    <Image Source="/round-copy-stamp-png.png" Height="60" Width="95" HorizontalAlignment="Center">
+                <Button Style="{StaticResource ButtonStyle}"  Width="100" Height="100"  ToolTip="Стерти">
+                    <Image Source="/5cb77a93a7c7755bf004c111.png" Height="83" Width="117" HorizontalAlignment="Center">
 
                     </Image>
                 </Button>
-                <Button Width="63" Height="63" ToolTip="Вставити">
-                    <Image Source="/png-clipart-toothpaste-and-toothbrush-illustration-electric-toothbrush-toothpaste-tooth-brushing-toothbrush-dentistry-hygiene.png">
+                <Button Style="{StaticResource ButtonStyle}" Width="100" Height="100"  ToolTip="Копіювати">
+                    <Image Source="/round-copy-stamp-png.png" Height="84" Width="133" HorizontalAlignment="Center">
+
+                    </Image>
+                </Button>
+                <Button Style="{StaticResource ButtonStyle}"  Width="100" Height="100"  ToolTip="Вставити">
+                    <Image Source="/pngegg.png" Height="87" Width="105" VerticalAlignment="Center" HorizontalAlignment="Center">
 
                     </Image>
                 </Button>
             </StackPanel>
 
         </Border>
-        <Border Grid.Row="1" BorderBrush="#FFCBBEBE" BorderThickness="2" CornerRadius="10">
+        <Border Background="{StaticResource LinearPanelBrush}" Grid.Row="1" BorderBrush="#FFCBBEBE" BorderThickness="2" CornerRadius="10">
             <Grid >
                 <Grid.RowDefinitions>
                     <RowDefinition Height="314*"/>

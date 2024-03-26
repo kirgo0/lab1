@@ -8,11 +8,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Remove="5cb77a93a7c7755bf004c111.png" />
-    <None Remove="copy-stamp-png-15.jpg" />
-    <None Remove="open-sign-11552767930g7zpbml23u.png" />
-    <None Remove="png-clipart-toothpaste-and-toothbrush-illustration-electric-toothbrush-toothpaste-tooth-brushing-toothbrush-dentistry-hygiene.png" />
-    <None Remove="round-copy-stamp-png.png" />
+    <None Remove="580b585b2edbce24c47b245b.png" />
+    <None Remove="pngegg.png" />
   </ItemGroup>
 
   <ItemGroup>
@@ -20,11 +17,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Resource Include="5cb77a93a7c7755bf004c111.png" />
-    <Resource Include="copy-stamp-png-15.jpg" />
-    <Resource Include="open-sign-11552767930g7zpbml23u.png" />
-    <Resource Include="png-clipart-toothpaste-and-toothbrush-illustration-electric-toothbrush-toothpaste-tooth-brushing-toothbrush-dentistry-hygiene.png" />
-    <Resource Include="round-copy-stamp-png.png" />
+    <Resource Include="580b585b2edbce24c47b245b.png" />
+    <Resource Include="pngegg.png" />
   </ItemGroup>
 
 </Project>
