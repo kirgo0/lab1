@@ -7,21 +7,13 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <Grid ShowGridLines="True">
-            <Grid.RowDefinitions>
-                <RowDefinition Height="11*"/>
-                <RowDefinition Height="44*"/>
-                <RowDefinition Height="Auto"/>
-            </Grid.RowDefinitions>
-            <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="239*"/>
-                <ColumnDefinition Width="287*"/>
-                <ColumnDefinition Width="274*"/>
-            </Grid.ColumnDefinitions>
-            <TextBox TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Height="48" Grid.Row="1" Grid.ColumnSpan="3"/>
-            <Label Grid.Column="1" Content="Label" Margin="0,10,0,0" VerticalAlignment="Top"/>
-            <Button Grid.Column="1" Content="Button" Grid.Row="2" VerticalAlignment="Center" Height="36"/>
-        </Grid>
-
+        <StackPanel Margin="48,40,48,0">
+            <Label Content="Label" HorizontalAlignment="Center" FontSize="14"/>
+            <TextBox TextWrapping="Wrap" Text="TextBox" Height="27" FontSize="14" BorderThickness="0,1,0,1"/>
+            <TextBox TextWrapping="Wrap" Text="TextBox" Height="26" FontSize="14" BorderThickness="0,1,0,1"/>
+            <TextBox TextWrapping="Wrap" Text="TextBox" Height="26" FontSize="14" BorderThickness="0,1,0,1"/>
+            <TextBox TextWrapping="Wrap" Text="TextBox" Height="26" FontSize="14" BorderThickness="0,1,0,1"/>
+            <Button Content="Button" Margin="0,100,0,0" Width="400" Height="30" FontSize="14"/>
+        </StackPanel>
     </Grid>
 </Window>
