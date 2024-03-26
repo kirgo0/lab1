@@ -6,33 +6,12 @@
         xmlns:local="clr-namespace:lab2"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="813">
-    <Grid Width="815" Margin="0,0,-2,-6">
-        <WrapPanel Margin="0,153,0,199" Width="699" HorizontalAlignment="Center">
-            <Label Content="Label"/>
-            <TextBox TextWrapping="Wrap" Text="TextBox" Width="60" Height="25" VerticalContentAlignment="Center"/>
-            <TextBox TextWrapping="Wrap" Text="TextBox" Width="60" Height="25" VerticalContentAlignment="Center"/>
-            <TextBox TextWrapping="Wrap" Text="TextBox" Width="60" Height="25" VerticalContentAlignment="Center"/>
-            <TextBox TextWrapping="Wrap" Text="TextBox" Width="60" Height="25" VerticalContentAlignment="Center"/>
-            <TextBox TextWrapping="Wrap" Text="TextBox" Width="60" Height="25" VerticalContentAlignment="Center"/>
-            <TextBox TextWrapping="Wrap" Text="TextBox" Width="60" Height="25" VerticalContentAlignment="Center"/>
-            <TextBox TextWrapping="Wrap" Text="TextBox" Width="60" Height="25" VerticalContentAlignment="Center"/>
-            <TextBox TextWrapping="Wrap" Text="TextBox" Width="60" Height="25" VerticalContentAlignment="Center"/>
-            <TextBox TextWrapping="Wrap" Text="TextBox" Width="60" Height="25" VerticalContentAlignment="Center"/>
-            <TextBox TextWrapping="Wrap" Text="TextBox" Width="60" Height="25" VerticalContentAlignment="Center"/>
-            <TextBox TextWrapping="Wrap" Text="TextBox" Width="60" Height="25" VerticalContentAlignment="Center"/>
-            <Label Content="Label"/>
-            <TextBox TextWrapping="Wrap" Text="TextBox" Width="60" Height="25" VerticalContentAlignment="Center"/>
-            <TextBox TextWrapping="Wrap" Text="TextBox" Width="60" Height="25" VerticalContentAlignment="Center"/>
-            <TextBox TextWrapping="Wrap" Text="TextBox" Width="60" Height="25" VerticalContentAlignment="Center"/>
-            <TextBox TextWrapping="Wrap" Text="TextBox" Width="60" Height="25" VerticalContentAlignment="Center" HorizontalAlignment="Center" VerticalAlignment="Top"/>
-            <TextBox TextWrapping="Wrap" Text="TextBox" Width="60" Height="25" VerticalContentAlignment="Center" VerticalAlignment="Top" HorizontalAlignment="Center"/>
-            <TextBox TextWrapping="Wrap" Text="TextBox" Width="60" Height="25" VerticalContentAlignment="Center"/>
-            <TextBox TextWrapping="Wrap" Text="TextBox" Width="60" Height="25" VerticalContentAlignment="Center"/>
-            <TextBox TextWrapping="Wrap" Text="TextBox" Width="60" Height="25" VerticalContentAlignment="Center"/>
-            <TextBox TextWrapping="Wrap" Text="TextBox" Width="60" Height="25" VerticalContentAlignment="Center"/>
-            <TextBox TextWrapping="Wrap" Text="TextBox" Width="60" Height="25" VerticalContentAlignment="Center"/>
-            <TextBox TextWrapping="Wrap" Text="TextBox" Width="60" Height="25" VerticalContentAlignment="Center"/>
-        </WrapPanel>
-        <Button Content="Button" VerticalAlignment="Top" HorizontalAlignment="Center" Margin="0,279,0,0"/>
+    <Grid Width="815" >
+        <DockPanel LastChildFill="False">
+            <Label Content="Label" Width="100" HorizontalAlignment="Center" VerticalAlignment="Center" DockPanel.Dock="Top" HorizontalContentAlignment="Right"/>
+            <TextBox TextWrapping="Wrap" Text="TextBox" Width="308" FontSize="14"/>
+            <TextBox TextWrapping="Wrap" Text="TextBox" Width="329" DockPanel.Dock="Right" FontSize="14"/>
+            <Button Content="Button" DockPanel.Dock="Bottom" Height="31" Margin="0,0,0,40" Width="144" FontSize="14" HorizontalContentAlignment="Center"/>
+        </DockPanel>
     </Grid>
 </Window>
